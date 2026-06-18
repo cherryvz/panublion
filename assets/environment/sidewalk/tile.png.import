@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgx3k3y4ypq35"
-path="res://.godot/imported/pixel_art_tree_using_3_4_perspective-removebg-preview.png-d3de918c50bc821fd7e0c450de4570a6.ctex"
+uid="uid://b75ticjtqe67s"
+path="res://.godot/imported/tile.png-d515dde2a9eaecb1bf00ee0f8aee9251.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/environment/trees/pixel_art_tree_using_3_4_perspective-removebg-preview.png"
-dest_files=["res://.godot/imported/pixel_art_tree_using_3_4_perspective-removebg-preview.png-d3de918c50bc821fd7e0c450de4570a6.ctex"]
+source_file="res://assets/environment/sidewalk/tile.png"
+dest_files=["res://.godot/imported/tile.png-d515dde2a9eaecb1bf00ee0f8aee9251.ctex"]
 
 [params]
 

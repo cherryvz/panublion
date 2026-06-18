@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dry5v2lu4iv4x"]
+
+[ext_resource type="Texture2D" uid="uid://dumvsjfld2bv" path="res://assets/environment/cars/cars_moving.png" id="1_c35m8"]
+[ext_resource type="Script" uid="uid://cbwa5lfufn35" path="res://scripts/cars.gd" id="1_qt2eu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qt2eu"]
+size = Vector2(118, 69)
+
+[node name="Car" type="Area2D" unique_id=1167040298]
+position = Vector2(129, 72)
+script = ExtResource("1_qt2eu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1836407286]
+position = Vector2(-27.000004, 73)
+rotation = 1.5707964
+scale = Vector2(0.7950128, 0.6882183)
+texture = ExtResource("1_c35m8")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(0, 0, 110, 188)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=159591586]
+position = Vector2(-35, 66)
+shape = SubResource("RectangleShape2D_qt2eu")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b75ticjtqe67s"
-path="res://.godot/imported/TX Tileset Stone Ground.png-f877442a4d41f54425efb2e570dda7a2.ctex"
+uid="uid://cgx3k3y4ypq35"
+path="res://.godot/imported/trees.png-92088a5e014c968c5a73b7434897759b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/environment/sidewalk/TX Tileset Stone Ground.png"
-dest_files=["res://.godot/imported/TX Tileset Stone Ground.png-f877442a4d41f54425efb2e570dda7a2.ctex"]
+source_file="res://assets/environment/trees/trees.png"
+dest_files=["res://.godot/imported/trees.png-92088a5e014c968c5a73b7434897759b.ctex"]
 
 [params]
 
