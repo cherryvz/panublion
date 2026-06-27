@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvgunu8eerv4e"
-path="res://.godot/imported/building.png-a00edd13fabc8f35f62c987bd4cbd8a0.ctex"
+uid="uid://c2ysrc14lxft1"
+path="res://.godot/imported/survivalgame-terrian-defult.png-9d2899dec5f1ae3f59c226fdd9edee19.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/environment/houses_buildings/building.png"
-dest_files=["res://.godot/imported/building.png-a00edd13fabc8f35f62c987bd4cbd8a0.ctex"]
+source_file="res://assets/environment/map/survivalgame-terrian-defult.png"
+dest_files=["res://.godot/imported/survivalgame-terrian-defult.png-9d2899dec5f1ae3f59c226fdd9edee19.ctex"]
 
 [params]
 

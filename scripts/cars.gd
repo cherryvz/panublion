@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var speed = 150.0
+@export var speed = 200.0
 @export var direction = 1  # 1 = right, -1 = left
 @export var car_col = 0    # 0-3 (which column)
 @export var car_row = 0    # 0-2 (which row)

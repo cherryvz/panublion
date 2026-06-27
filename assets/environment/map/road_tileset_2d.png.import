@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvgunu8eerv4e"
-path="res://.godot/imported/building.png-a00edd13fabc8f35f62c987bd4cbd8a0.ctex"
+uid="uid://be5bjspejv2fd"
+path="res://.godot/imported/road_tileset_2d.png-ce20be0fcae5cafcad3ce3e7f22bb7aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/environment/houses_buildings/building.png"
-dest_files=["res://.godot/imported/building.png-a00edd13fabc8f35f62c987bd4cbd8a0.ctex"]
+source_file="res://assets/environment/map/road_tileset_2d.png"
+dest_files=["res://.godot/imported/road_tileset_2d.png-ce20be0fcae5cafcad3ce3e7f22bb7aa.ctex"]
 
 [params]
 
