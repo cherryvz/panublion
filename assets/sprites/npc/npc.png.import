@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkvmqnoio8laa"
-path="res://.godot/imported/buildings2.png-f81922b825d90ef6241322becc5861cf.ctex"
+uid="uid://bwfd5kn70ciyw"
+path="res://.godot/imported/npc.png-e392f352b79a63b5e544ff507768849e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/environment/houses_buildings/buildings2.png"
-dest_files=["res://.godot/imported/buildings2.png-f81922b825d90ef6241322becc5861cf.ctex"]
+source_file="res://assets/sprites/npc/npc.png"
+dest_files=["res://.godot/imported/npc.png-e392f352b79a63b5e544ff507768849e.ctex"]
 
 [params]
 

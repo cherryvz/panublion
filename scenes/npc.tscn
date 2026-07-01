@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://cl7x4x450o34f"]
+
+[ext_resource type="Script" uid="uid://d4dedd8ihx68f" path="res://scripts/npc1.gd" id="1_abqhh"]
+[ext_resource type="Texture2D" uid="uid://bwfd5kn70ciyw" path="res://assets/sprites/npc/npc.png" id="1_nh2m4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abqhh"]
+atlas = ExtResource("1_nh2m4")
+region = Rect2(0, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rv78h"]
+atlas = ExtResource("1_nh2m4")
+region = Rect2(400, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7n8xq"]
+atlas = ExtResource("1_nh2m4")
+region = Rect2(200, 0, 200, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4wlns"]
+atlas = ExtResource("1_nh2m4")
+region = Rect2(600, 0, 200, 200)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tl2vt"]
+animations = [{
+"frames": [{
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_abqhh")
+}, {
+"duration": 1.1,
+"texture": SubResource("AtlasTexture_rv78h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7n8xq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4wlns")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nh2m4"]
+size = Vector2(52.625, 57.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_abqhh"]
+size = Vector2(74, 79.25)
+
+[node name="Npc" type="CharacterBody2D" unique_id=1766682339]
+script = ExtResource("1_abqhh")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=261685926]
+position = Vector2(445.75003, -147.625)
+scale = Vector2(0.5824999, 0.61375004)
+sprite_frames = SubResource("SpriteFrames_tl2vt")
+frame_progress = 0.61254764
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=57806700]
+position = Vector2(443, -146)
+shape = SubResource("RectangleShape2D_nh2m4")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=299956476]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1897462838]
+position = Vector2(443, -147.625)
+shape = SubResource("RectangleShape2D_abqhh")
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=842962932]
+top_level = true
+position = Vector2(440, -162)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=129671838]
+
+[node name="Panel" type="Panel" parent="." unique_id=438513424]
+offset_left = 401.0
+offset_top = -187.0
+offset_right = 487.0
+offset_bottom = -155.0
+
+[node name="Label" type="Label" parent="Panel" unique_id=981764431]
+layout_mode = 0
+offset_left = -9.0
+offset_top = -5.0
+offset_right = 99.0
+offset_bottom = 35.0
+horizontal_alignment = 1
+uppercase = true

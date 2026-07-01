@@ -4,19 +4,19 @@
 [ext_resource type="Script" uid="uid://cixaf884vi314" path="res://scripts/player.gd" id="1_rkhd4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rkhd4"]
-size = Vector2(38.5, 47.5)
+size = Vector2(46.5, 52.5)
 
 [node name="Character" type="CharacterBody2D" unique_id=2097492631]
 script = ExtResource("1_rkhd4")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2074257495]
-position = Vector2(5.3750014, -7.249998)
-scale = Vector2(0.34558824, 0.3125)
+position = Vector2(10.375002, -10.75)
+scale = Vector2(0.44362745, 0.35855263)
 texture = ExtResource("1_agfs1")
 hframes = 4
 vframes = 4
 frame = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1480101794]
-position = Vector2(5.75, -4.25)
+position = Vector2(9.75, -6.75)
 shape = SubResource("RectangleShape2D_rkhd4")

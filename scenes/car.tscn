@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://cbwa5lfufn35" path="res://scripts/cars.gd" id="1_qt2eu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qt2eu"]
-size = Vector2(118, 69)
+size = Vector2(118, 48.5)
 
 [node name="Car" type="Area2D" unique_id=1167040298]
 position = Vector2(129, 72)
@@ -20,5 +20,5 @@ region_enabled = true
 region_rect = Rect2(0, 0, 110, 188)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=159591586]
-position = Vector2(-35, 66)
+position = Vector2(-30, 81)
 shape = SubResource("RectangleShape2D_qt2eu")
